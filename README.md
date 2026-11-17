@@ -1,8 +1,16 @@
 # Rhythm Chart Generation Research
 
-A **sanitized, runnable research showcase** for structured 4K rhythm-chart modeling.  It distills reusable ideas from a larger private research workspace into a small codebase that can be reviewed without private datasets, copyrighted media, player/replay data, model checkpoints, or third-party analyzer binaries.
+**ML research portfolio project:** a sanitized, runnable showcase for structured 4K rhythm-chart modeling with explicit legality constraints, causal sequence features, multi-head diagnostics, and leakage-aware evaluation.
 
-This repository is deliberately modest in scope: it demonstrates **representation, diagnostic modeling, and evaluation discipline**.  It does **not** claim state-of-the-art chart generation or validated human preference superiority.
+**Recruiter quick scan**
+- structured sequence / typed-event representation
+- deterministic legality state machine separated from learned quality signals
+- causal lane-recency residual prior
+- sequence/context multi-head playability critic
+- identity-grouped OOF evaluation with train-only transforms
+- reproducible synthetic demo and offline tests
+
+This public repository intentionally exposes reusable research ideas without publishing private datasets, copyrighted media, replay corpora, checkpoints, or third-party binaries.
 
 ## What is included
 
