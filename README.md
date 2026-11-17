@@ -9,6 +9,7 @@
 - sequence/context multi-head playability critic
 - identity-grouped OOF evaluation with train-only transforms
 - reproducible synthetic demo and offline tests
+- **Verification:** 7/7 public tests pass in local verification; `ruff check src tests` passes
 
 This public repository intentionally exposes reusable research ideas without publishing private datasets, copyrighted media, replay corpora, checkpoints, or third-party binaries.
 
